@@ -1,35 +1,56 @@
-# 7 Days DevOps Projects Portfolio
+# DevOps Portfolio
 
-This is a modern portfolio website to showcase your 7 days DevOps project series, including a bonus AWS Compute (Elastic Beanstalk) project. Each project is presented with a description and a link to view/download the corresponding PDF.
+A modern portfolio website showcasing DevOps projects and series, built with Flask and Bootstrap.
 
 ## Features
-- Responsive, modern Bootstrap UI
-- Each project has its own section and PDF link
-- Bonus project highlighted
 
-## How to Run Locally
+- Responsive, modern UI using Bootstrap 5
+- Admin interface for easy project management
+- PDF document hosting
+- GitHub Pages deployment
+- Easy to add new projects
 
-1. **Install Python 3.8+** (if not already installed)
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Run the Flask app:**
-   ```bash
-   python app.py
-   ```
-4. **Open your browser and go to:**
-   [http://localhost:5000](http://localhost:5000)
+## Local Development
 
-## Project Structure
-- `app.py` - Flask application
-- `templates/index.html` - Portfolio homepage
-- `*.pdf` - Your DevOps project PDFs
-- `requirements.txt` - Python dependencies
+1. Clone the repository:
+```bash
+git clone https://github.com/rishit911/portfolio.git
+cd portfolio
+```
 
-## Customization
-- Edit `app.py` to change project titles, descriptions, or add more projects.
-- Replace the PDFs with your own files as needed.
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the development server:
+```bash
+python app.py
+```
+
+4. Visit `http://localhost:5000` in your browser
+
+## Adding New Projects
+
+1. Access the admin interface at `/admin`
+2. Use the forms to add new projects or series items
+3. Upload PDF files to the root directory
+4. The changes will be automatically reflected on the site
+
+## Deployment
+
+The site is automatically deployed to GitHub Pages using GitHub Actions. Any push to the main branch will trigger a new deployment.
+
+## Technologies Used
+
+- Flask
+- Bootstrap 5
+- GitHub Pages
+- GitHub Actions
+
+## License
+
+MIT License
 
 ---
 Built by Rishit | 2024 
