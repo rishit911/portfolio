@@ -1,0 +1,93 @@
+{
+    "projects": [
+        {
+            "title": "Day 1: AWS DevOps with CloudFormation",
+            "filename": "legendary-aws-devops-cloudformation.pdf",
+            "desc": "Automate AWS infrastructure provisioning using CloudFormation templates."
+        },
+        {
+            "title": "Day 2: AWS DevOps with CodeArtifact",
+            "filename": "legendary-aws-devops-code-artifact.pdf",
+            "desc": "Manage and store build artifacts securely with AWS CodeArtifact."
+        },
+        {
+            "title": "Day 3: AWS DevOps with CodeBuild",
+            "filename": "legendary-aws-devops-codebuild.pdf",
+            "desc": "Automate code building and testing using AWS CodeBuild."
+        },
+        {
+            "title": "Day 4: AWS DevOps with CodeDeploy",
+            "filename": "legendary-aws-devops-codedeploy.pdf",
+            "desc": "Deploy applications automatically to AWS compute services using CodeDeploy."
+        },
+        {
+            "title": "Day 5: AWS DevOps with CodePipeline",
+            "filename": "legendary-aws-devops-codepipeline.pdf",
+            "desc": "Orchestrate CI/CD workflows with AWS CodePipeline."
+        },
+        {
+            "title": "Day 6: AWS DevOps with GitHub",
+            "filename": "legendary-aws-devops-github.pdf",
+            "desc": "Integrate GitHub with AWS DevOps tools for source control and automation."
+        },
+        {
+            "title": "Day 7: AWS DevOps with VSCode",
+            "filename": "legendary-aws-devops-vscode.pdf",
+            "desc": "Set up a productive DevOps development environment using VSCode."
+        }
+    ],
+    "series": [
+        {
+            "day": "1",
+            "project": "Set Up a Web App in the Cloud",
+            "filename": "legendary-aws-devops-vscode.pdf",
+            "summary": "Setting up a web app using EC2 and VSCode"
+        },
+        {
+            "day": "2",
+            "project": "Connect a GitHub Repo with AWS",
+            "filename": "legendary-aws-devops-github.pdf",
+            "summary": "Setting up Git and GitHub to manage version control"
+        },
+        {
+            "day": "3",
+            "project": "Dependencies and CodeArtifact",
+            "filename": "legendary-aws-devops-code-artifact.pdf",
+            "summary": "Managing dependencies with AWS CodeArtifact"
+        },
+        {
+            "day": "4",
+            "project": "Package an App with CodeBuild",
+            "filename": "legendary-aws-devops-codebuild.pdf",
+            "summary": "Building the app with CodeBuild and generating WAR files"
+        },
+        {
+            "day": "5",
+            "project": "Deploy an App with CodeDeploy",
+            "filename": "legendary-aws-devops-codedeploy.pdf",
+            "summary": "Deploying the WAR files using CodeDeploy on EC2"
+        },
+        {
+            "day": "6",
+            "project": "CI/CD with CodePipeline",
+            "filename": "legendary-aws-devops-codepipeline.pdf",
+            "summary": "Automating the build and deploy pipeline with CodePipeline"
+        },
+        {
+            "day": "7",
+            "project": "Automate with CloudFormation",
+            "filename": "legendary-aws-devops-cloudformation.pdf",
+            "summary": "Infrastructure as Code with CloudFormation to automate deployments"
+        }
+    ],
+    "bonus": {
+        "title": "Bonus: AWS Compute with Elastic Beanstalk",
+        "filename": "legendary-aws-compute-eb.pdf",
+        "desc": "Deploy and manage applications easily with AWS Elastic Beanstalk."
+    },
+    "bonus_series": {
+        "project": "Containers on Elastic Beanstalk",
+        "filename": "legendary-aws-compute-eb.pdf",
+        "summary": "Deploying containerized apps with Elastic Beanstalk"
+    }
+} 
